@@ -14,12 +14,12 @@ public class RobotColorChooser {
 		Robot robot = new Robot();
 		robot.setPenWidth(10);
 	    //2. Make the robot draw a shape (this will take more than one line of code)
-		for (int i = 0; i < 6; i++) {
+		for (int i = 0; i < 100; i++) {
 			
 		
 		robot.setSpeed(50);
 		robot.penDown();
-		for (int x = 0; x < 20; x++) {
+		for (int x = 0; x < 6; x++) {
 		robot.move(100);
 		robot.turn(60);
 		}
