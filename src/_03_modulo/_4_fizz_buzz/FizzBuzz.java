@@ -1,6 +1,7 @@
 
 package _03_modulo._4_fizz_buzz;
 
+import javax.swing.text.StyledEditorKit.ForegroundAction;
 
 /**
 * Fizz Buzz
@@ -21,6 +22,26 @@ package _03_modulo._4_fizz_buzz;
 **/
 
 public class FizzBuzz {
+public static void main(String[] args) {
+	
 
-}
+{
+	int x=1;
+	for (int i = 0; i<20; i++){
+		if(x%15==0) {
+			System.out.println("fizzbuzz");
+		}
+	else if(x%3==0) {
+			System.out.println("fizz");
+		}
+		else if(x%5==0) {
+			System.out.println("buzz");
+		}
+		
+		else {
+System.out.println(x);
+		}
+		x++;
+
+}}}}
 
